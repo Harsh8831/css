@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>.class1 .class2</title>
+    <style>
+        div {
+            background-color: rgb(0, 81, 255);
+        }
+        .parent .child {
+            background-color: rgba(10, 120, 216, 0.904);
+        }
+    </style>
+</head>
+<body>
+    <div class="parent">.class1 .class2 (select the child element of class1 whose class names are class2)
+        <h3 class="child">chid box</h3>
+        <h3>this is not selected even though it is under the div tag</h3>
+    </div>
+    <h3 class="child">this is out of div box</h3>
+</body>
+</html>
